@@ -1,0 +1,597 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1D6E754D23A6920800CF9F99 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D6E754C23A6920800CF9F99 /* AppDelegate.swift */; };
+		1D6E754F23A6920800CF9F99 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D6E754E23A6920800CF9F99 /* SceneDelegate.swift */; };
+		1D6E755123A6920800CF9F99 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D6E755023A6920800CF9F99 /* ViewController.swift */; };
+		1D6E755423A6920800CF9F99 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1D6E755223A6920800CF9F99 /* Main.storyboard */; };
+		1D6E755623A6920900CF9F99 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1D6E755523A6920900CF9F99 /* Assets.xcassets */; };
+		1D6E755923A6920900CF9F99 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1D6E755723A6920900CF9F99 /* LaunchScreen.storyboard */; };
+		1D6E756423A6920900CF9F99 /* SildingPuzzleGameTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D6E756323A6920900CF9F99 /* SildingPuzzleGameTests.swift */; };
+		1D6E756F23A6920A00CF9F99 /* SildingPuzzleGameUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D6E756E23A6920A00CF9F99 /* SildingPuzzleGameUITests.swift */; };
+		1D6E757D23A6922C00CF9F99 /* BoardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D6E757C23A6922C00CF9F99 /* BoardView.swift */; };
+		1D6E757F23A6923200CF9F99 /* FifteenBoard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D6E757E23A6923200CF9F99 /* FifteenBoard.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1D6E756023A6920900CF9F99 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1D6E754123A6920800CF9F99 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1D6E754823A6920800CF9F99;
+			remoteInfo = SildingPuzzleGame;
+		};
+		1D6E756B23A6920A00CF9F99 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1D6E754123A6920800CF9F99 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1D6E754823A6920800CF9F99;
+			remoteInfo = SildingPuzzleGame;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1D6E754923A6920800CF9F99 /* SildingPuzzleGame.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SildingPuzzleGame.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1D6E754C23A6920800CF9F99 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		1D6E754E23A6920800CF9F99 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		1D6E755023A6920800CF9F99 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		1D6E755323A6920800CF9F99 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		1D6E755523A6920900CF9F99 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1D6E755823A6920900CF9F99 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		1D6E755A23A6920900CF9F99 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1D6E755F23A6920900CF9F99 /* SildingPuzzleGameTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SildingPuzzleGameTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1D6E756323A6920900CF9F99 /* SildingPuzzleGameTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SildingPuzzleGameTests.swift; sourceTree = "<group>"; };
+		1D6E756523A6920900CF9F99 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1D6E756A23A6920A00CF9F99 /* SildingPuzzleGameUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SildingPuzzleGameUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1D6E756E23A6920A00CF9F99 /* SildingPuzzleGameUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SildingPuzzleGameUITests.swift; sourceTree = "<group>"; };
+		1D6E757023A6920A00CF9F99 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1D6E757C23A6922C00CF9F99 /* BoardView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BoardView.swift; sourceTree = "<group>"; };
+		1D6E757E23A6923200CF9F99 /* FifteenBoard.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FifteenBoard.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1D6E754623A6920800CF9F99 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1D6E755C23A6920900CF9F99 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1D6E756723A6920A00CF9F99 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1D6E754023A6920800CF9F99 = {
+			isa = PBXGroup;
+			children = (
+				1D6E754B23A6920800CF9F99 /* SildingPuzzleGame */,
+				1D6E756223A6920900CF9F99 /* SildingPuzzleGameTests */,
+				1D6E756D23A6920A00CF9F99 /* SildingPuzzleGameUITests */,
+				1D6E754A23A6920800CF9F99 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1D6E754A23A6920800CF9F99 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1D6E754923A6920800CF9F99 /* SildingPuzzleGame.app */,
+				1D6E755F23A6920900CF9F99 /* SildingPuzzleGameTests.xctest */,
+				1D6E756A23A6920A00CF9F99 /* SildingPuzzleGameUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1D6E754B23A6920800CF9F99 /* SildingPuzzleGame */ = {
+			isa = PBXGroup;
+			children = (
+				1D6E757E23A6923200CF9F99 /* FifteenBoard.swift */,
+				1D6E757C23A6922C00CF9F99 /* BoardView.swift */,
+				1D6E754C23A6920800CF9F99 /* AppDelegate.swift */,
+				1D6E754E23A6920800CF9F99 /* SceneDelegate.swift */,
+				1D6E755023A6920800CF9F99 /* ViewController.swift */,
+				1D6E755223A6920800CF9F99 /* Main.storyboard */,
+				1D6E755523A6920900CF9F99 /* Assets.xcassets */,
+				1D6E755723A6920900CF9F99 /* LaunchScreen.storyboard */,
+				1D6E755A23A6920900CF9F99 /* Info.plist */,
+			);
+			path = SildingPuzzleGame;
+			sourceTree = "<group>";
+		};
+		1D6E756223A6920900CF9F99 /* SildingPuzzleGameTests */ = {
+			isa = PBXGroup;
+			children = (
+				1D6E756323A6920900CF9F99 /* SildingPuzzleGameTests.swift */,
+				1D6E756523A6920900CF9F99 /* Info.plist */,
+			);
+			path = SildingPuzzleGameTests;
+			sourceTree = "<group>";
+		};
+		1D6E756D23A6920A00CF9F99 /* SildingPuzzleGameUITests */ = {
+			isa = PBXGroup;
+			children = (
+				1D6E756E23A6920A00CF9F99 /* SildingPuzzleGameUITests.swift */,
+				1D6E757023A6920A00CF9F99 /* Info.plist */,
+			);
+			path = SildingPuzzleGameUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1D6E754823A6920800CF9F99 /* SildingPuzzleGame */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1D6E757323A6920A00CF9F99 /* Build configuration list for PBXNativeTarget "SildingPuzzleGame" */;
+			buildPhases = (
+				1D6E754523A6920800CF9F99 /* Sources */,
+				1D6E754623A6920800CF9F99 /* Frameworks */,
+				1D6E754723A6920800CF9F99 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SildingPuzzleGame;
+			productName = SildingPuzzleGame;
+			productReference = 1D6E754923A6920800CF9F99 /* SildingPuzzleGame.app */;
+			productType = "com.apple.product-type.application";
+		};
+		1D6E755E23A6920900CF9F99 /* SildingPuzzleGameTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1D6E757623A6920A00CF9F99 /* Build configuration list for PBXNativeTarget "SildingPuzzleGameTests" */;
+			buildPhases = (
+				1D6E755B23A6920900CF9F99 /* Sources */,
+				1D6E755C23A6920900CF9F99 /* Frameworks */,
+				1D6E755D23A6920900CF9F99 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1D6E756123A6920900CF9F99 /* PBXTargetDependency */,
+			);
+			name = SildingPuzzleGameTests;
+			productName = SildingPuzzleGameTests;
+			productReference = 1D6E755F23A6920900CF9F99 /* SildingPuzzleGameTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		1D6E756923A6920A00CF9F99 /* SildingPuzzleGameUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1D6E757923A6920A00CF9F99 /* Build configuration list for PBXNativeTarget "SildingPuzzleGameUITests" */;
+			buildPhases = (
+				1D6E756623A6920A00CF9F99 /* Sources */,
+				1D6E756723A6920A00CF9F99 /* Frameworks */,
+				1D6E756823A6920A00CF9F99 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1D6E756C23A6920A00CF9F99 /* PBXTargetDependency */,
+			);
+			name = SildingPuzzleGameUITests;
+			productName = SildingPuzzleGameUITests;
+			productReference = 1D6E756A23A6920A00CF9F99 /* SildingPuzzleGameUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1D6E754123A6920800CF9F99 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1130;
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = JuneK;
+				TargetAttributes = {
+					1D6E754823A6920800CF9F99 = {
+						CreatedOnToolsVersion = 11.3;
+					};
+					1D6E755E23A6920900CF9F99 = {
+						CreatedOnToolsVersion = 11.3;
+						TestTargetID = 1D6E754823A6920800CF9F99;
+					};
+					1D6E756923A6920A00CF9F99 = {
+						CreatedOnToolsVersion = 11.3;
+						TestTargetID = 1D6E754823A6920800CF9F99;
+					};
+				};
+			};
+			buildConfigurationList = 1D6E754423A6920800CF9F99 /* Build configuration list for PBXProject "SildingPuzzleGame" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1D6E754023A6920800CF9F99;
+			productRefGroup = 1D6E754A23A6920800CF9F99 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1D6E754823A6920800CF9F99 /* SildingPuzzleGame */,
+				1D6E755E23A6920900CF9F99 /* SildingPuzzleGameTests */,
+				1D6E756923A6920A00CF9F99 /* SildingPuzzleGameUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1D6E754723A6920800CF9F99 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D6E755923A6920900CF9F99 /* LaunchScreen.storyboard in Resources */,
+				1D6E755623A6920900CF9F99 /* Assets.xcassets in Resources */,
+				1D6E755423A6920800CF9F99 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1D6E755D23A6920900CF9F99 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1D6E756823A6920A00CF9F99 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1D6E754523A6920800CF9F99 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D6E755123A6920800CF9F99 /* ViewController.swift in Sources */,
+				1D6E757D23A6922C00CF9F99 /* BoardView.swift in Sources */,
+				1D6E757F23A6923200CF9F99 /* FifteenBoard.swift in Sources */,
+				1D6E754D23A6920800CF9F99 /* AppDelegate.swift in Sources */,
+				1D6E754F23A6920800CF9F99 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1D6E755B23A6920900CF9F99 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D6E756423A6920900CF9F99 /* SildingPuzzleGameTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1D6E756623A6920A00CF9F99 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D6E756F23A6920A00CF9F99 /* SildingPuzzleGameUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1D6E756123A6920900CF9F99 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1D6E754823A6920800CF9F99 /* SildingPuzzleGame */;
+			targetProxy = 1D6E756023A6920900CF9F99 /* PBXContainerItemProxy */;
+		};
+		1D6E756C23A6920A00CF9F99 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1D6E754823A6920800CF9F99 /* SildingPuzzleGame */;
+			targetProxy = 1D6E756B23A6920A00CF9F99 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		1D6E755223A6920800CF9F99 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1D6E755323A6920800CF9F99 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		1D6E755723A6920900CF9F99 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1D6E755823A6920900CF9F99 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1D6E757123A6920A00CF9F99 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		1D6E757223A6920A00CF9F99 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1D6E757423A6920A00CF9F99 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SildingPuzzleGame/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.junek.SildingPuzzleGame;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1D6E757523A6920A00CF9F99 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SildingPuzzleGame/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.junek.SildingPuzzleGame;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		1D6E757723A6920A00CF9F99 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SildingPuzzleGameTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.junek.SildingPuzzleGameTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SildingPuzzleGame.app/SildingPuzzleGame";
+			};
+			name = Debug;
+		};
+		1D6E757823A6920A00CF9F99 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SildingPuzzleGameTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.junek.SildingPuzzleGameTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SildingPuzzleGame.app/SildingPuzzleGame";
+			};
+			name = Release;
+		};
+		1D6E757A23A6920A00CF9F99 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SildingPuzzleGameUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.junek.SildingPuzzleGameUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SildingPuzzleGame;
+			};
+			name = Debug;
+		};
+		1D6E757B23A6920A00CF9F99 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SildingPuzzleGameUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.junek.SildingPuzzleGameUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SildingPuzzleGame;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1D6E754423A6920800CF9F99 /* Build configuration list for PBXProject "SildingPuzzleGame" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1D6E757123A6920A00CF9F99 /* Debug */,
+				1D6E757223A6920A00CF9F99 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1D6E757323A6920A00CF9F99 /* Build configuration list for PBXNativeTarget "SildingPuzzleGame" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1D6E757423A6920A00CF9F99 /* Debug */,
+				1D6E757523A6920A00CF9F99 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1D6E757623A6920A00CF9F99 /* Build configuration list for PBXNativeTarget "SildingPuzzleGameTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1D6E757723A6920A00CF9F99 /* Debug */,
+				1D6E757823A6920A00CF9F99 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1D6E757923A6920A00CF9F99 /* Build configuration list for PBXNativeTarget "SildingPuzzleGameUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1D6E757A23A6920A00CF9F99 /* Debug */,
+				1D6E757B23A6920A00CF9F99 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1D6E754123A6920800CF9F99 /* Project object */;
+}
